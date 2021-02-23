@@ -212,6 +212,14 @@ $('.product-lists li.product').on('mouseleave',function(e){
     items: 1
   });
 
+  // Testimonials carousel (uses the Owl Carousel library)
+  $(".events-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    items: 1
+  });
+  
     // Counter
   $(document).ready(function(){
     $('.counter-value').each(function(){

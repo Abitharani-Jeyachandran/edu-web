@@ -90,6 +90,18 @@
 
   <main id="main">
 
+    <!--<div class="marquee">
+      <div class="marquee-inner">
+        <span>
+          <div class="orb"></div><div class="orb red"></div><div class="orb yellow"></div><div class="orb blue"></div><div class="orb orange"></div><div class="orb purple"></div><div class="orb green"></div><div class="orb"></div>
+        </span>
+        <span>
+          <div class="orb"></div><div class="orb red"></div><div class="orb yellow"></div><div class="orb blue"></div><div class="orb orange"></div><div class="orb purple"></div><div class="orb green"></div><div class="orb"></div>
+        </span>
+
+      </div>
+    </div>-->
+
     <div class="site-section section">
       <div class="container">
         <div class="row">
@@ -142,156 +154,138 @@
       </div>
     </div>
 
-    <!-- ======= courses Section ======= -->
-    <!--<section id="courses" class="courses section">
-      <div class="container">
-        <div class="row">
-            <div class="col-lg-6 offset-lg-3 col-12">
-              <div class="section-title bg">
-                <h2>Curriculum & Pricing</h2>
-              </div>
-            </div>
-          </div>
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="courses-flters">
-              <li data-filter="*" class="get-started-btn filter-active">All</li>
-              <li data-filter=".filter-app" class="get-started-btn">App</li>
-              <li data-filter=".filter-card" class="get-started-btn">Card</li>
-              <li data-filter=".filter-web" class="get-started-btn">Web</li>
-            </ul>
-          </div>
+    <!-- ======= Popular Courses Section ======= -->
+    <section id="popular-courses" class="courses">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Courses</h2>
+          <p>Popular Courses</p>
         </div>
 
-        <div class="row courses-container">
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
 
-          <div class="row">
-
-           <div class="col-lg-4 col-md-6 col-12 courses-item filter-web">
-              <div class="single-courses">
-                <div class="courses-head overlay">
-                  <img src="assets\img\courses\course1.jpg" alt="#">
-                  <a href="courses-single.html" class="get-started-btn">Register Now</a>
-                </div>
-                <div class="courses-body">
-                  <div class="name-price">
-                    <div class="teacher-info">
-                      <img src="assets\img\teachers\teacher-1.jpg" alt="#">
-                      <h4 class="title">Jewel Mathies</h4>
-                      </div>
-                    <span class="price">$350</span>
-                  </div>
-                  <h4 class="c-title"><a href="courses-single.html">Basic Web Design courses 2019</a></h4>
-                  <p>Natus voluptatibus perferendis repellendus Amet rerum quis odioThe ship set ground on the shore of this uncharted Gilligan consequa</p>
-                </div>
-                <div class="courses-meta">
-                  <div class="courses-info">
-                    <span><i class="fa fa-users"></i>2.4k Enrolled</span>
-                    <span><i class="fa fa-calendar-o"></i>2 Month</span>
-                    <span><i class="fa fa-clock-o"></i>09:30 - 12:00</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-12 courses-item filter-card">
-              <div class="single-courses">
-                <div class="courses-head overlay">
-                  <img src="assets\img\courses\course1.jpg" alt="#">
-                  <a href="courses-single.html" class="get-started-btn">Register Now</a>
-                </div>
-                <div class="courses-body">
-                  <div class="name-price">
-                    <div class="teacher-info">
-                      <img src="assets\img\teachers\teacher-1.jpg" alt="#">
-                      <h4 class="title">Noha Brown</h4>
-                    </div>
-                    <span class="price">Free</span>
-                  </div>
-                  <h4 class="c-title"><a href="courses-single.html">Free PHP Web Development</a></h4>
-                  <p>Natus voluptatibus perferendis repellendus Amet rerum quis odioThe ship set ground on the shore of this uncharted Gilligan</p>
-                </div>
-                <div class="courses-meta">
-                  <div class="courses-info">
-                    <span><i class="fa fa-users"></i>5.3k Enrolled</span>
-                    <span><i class="fa fa-calendar-o"></i>2 Weeks</span>
-                    <span><i class="fa fa-clock-o"></i>10:00 - 11:00</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 courses-item filter-app">
-              <div class="single-courses">
-                <div class="courses-head overlay">
-                  <img src="assets\img\courses\course1.jpg" alt="#">
-                  <a href="courses-single.html" class="get-started-btn">Register Now</a>
-                </div>
-                <div class="courses-body">
-                  <div class="name-price">
-                    <div class="teacher-info">
-                      <img src="assets\img\teachers\teacher-1.jpg" alt="#">
-                      <h4 class="title">Jenola Protan</h4>
-                    </div>
-                    <span class="price">$290</span>
-                  </div>
-                  <h4 class="c-title"><a href="courses-single.html">Learn Web Developments courses</a></h4>
-                  <p>Natus voluptatibus perferendis repellendus Amet rerum quis odioThe ship set ground on the shore of this uncharted Gilligan</p>
-                </div>
-                <div class="courses-meta">
-                  <div class="courses-info">
-                    <span><i class="fa fa-users"></i>2.4k Enrolled</span>
-                    <span><i class="fa fa-calendar-o"></i>2 Month</span>
-                    <span><i class="fa fa-clock-o"></i>10:30 - 12:30</span>
-                  </div>
-                </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="course-item">
+              <img src="assets\img\portfolio\portfolio-3.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <h3><a href="course-details.html">Copywriting</a></h3>
+                <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
               </div>
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="course-item">
+              <img src="assets\img\portfolio\portfolio-3.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <h3><a href="course-details.html">Copywriting</a></h3>
+                <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="course-item">
+              <img src="assets\img\portfolio\portfolio-3.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <h3><a href="course-details.html">Copywriting</a></h3>
+                <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+        </div>
+
+      </div>
+    </section><!-- End Popular Courses Section -->
+
+    <!-- ======= Events Section ======= -->
+<section id="events" class="events">
+  <div class="container">
+
+    <div class="owl-carousel events-carousel">
+
+      <div class="row event-item">
+        <div class="col-lg-6">
+          <img src="assets/img/event-birthday.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 content">
+          <h3>Birthday Parties</h3>
+          <div class="price">
+            <p><span>$189</span></p>
+          </div>
+          <p class="font-italic">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua.
+          </p>
+          <ul>
+            <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+            <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+            <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+          </ul>
+          <p>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur
+          </p>
+        </div>
+      </div>
+
+      <div class="row event-item">
+        <div class="col-lg-6">
+          <img src="assets/img/event-private.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 content">
+          <h3>Private Parties</h3>
+          <div class="price">
+            <p><span>$290</span></p>
+          </div>
+          <p class="font-italic">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua.
+          </p>
+          <ul>
+            <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+            <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+            <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+          </ul>
+          <p>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur
+          </p>
+        </div>
+      </div>
+
+      <div class="row event-item">
+        <div class="col-lg-6">
+          <img src="assets/img/event-custom.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 content">
+          <h3>Custom Parties</h3>
+          <div class="price">
+            <p><span>$99</span></p>
+          </div>
+          <p class="font-italic">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua.
+          </p>
+          <ul>
+            <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+            <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+            <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+          </ul>
+          <p>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur
+          </p>
         </div>
       </div>
 
     </div>
 
   </div>
-</section>--><!-- End courses Section -->
+</section><!-- End Events Section -->
 
-    <!-- ======= Team Section ======= -->
-  <section id="team" class="team section-bg">
-     <div class="container marquee">
-     <div class="row">
-     <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/team/team-1.jpg" alt="">
-              <h4>Walter White</h4>
-              <p>
-                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/team/team-2.jpg" alt="">
-              <h4>Sarah Jhinson</h4>
-              <p>
-                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/team/team-3.jpg" alt="">
-              <h4>William Anderson</h4>
-              <p>
-                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
-              </p>
-            </div>
-          </div>
-
-      </div>
-      </div>
-    </section><!-- End Team Section -->
 
     <!-- ======= Why Us Section ======= -->
     <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
@@ -389,16 +383,18 @@
       </div>
     </div>
 
+  <div class="container footer-bottom clearfix">
+      <div class="row  justify-content-left">
+      <div class="col-lg-12">
+        <h3>About</h3>
+        <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat. Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat. Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      </div>
+    </div>
+  </div>
+
     <div class="container footer-bottom clearfix">
       <div class="copyright">
         &copy; Copyright <strong><span>eNno</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/enno-free-simple-bootstrap-template/ -->
-      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
   </footer><!-- End Footer -->
