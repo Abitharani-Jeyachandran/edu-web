@@ -55,12 +55,12 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url('../img/bg-pattern1.png');
   transition: all 0.5s;
   z-index: 997;
-  padding: 16px 0;
+  padding: 2px 0;
 }
 
 #header.header-scrolled {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 16px 0;
+  padding: 4px 0;
 }
 
 #header .logo {
@@ -94,6 +94,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.nav-menu i {
+  font-size: 24px;
 }
 
 .nav-menu > ul {
@@ -247,7 +251,6 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 55px;
   right: 15px;
-  bottom: 15px;
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
