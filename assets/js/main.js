@@ -149,14 +149,14 @@
     time: 1000
   });
 
-  // Porfolio isotope and filter
+  // Curriculum isotope and filter
   $(window).on('load', function() {
-    var courseIsotope = $('.course-container').isotope({
-      itemSelector: '.course-item'
+    var courseIsotope = $('.course-items-area').isotope({
+      itemSelector: '.mix'
     });
 
-    $('#course-flters li').on('click', function() {
-      $("#course-flters li").removeClass('filter-active');
+    $('.course-filter li').on('click', function() {
+      $(".course-filter li").removeClass('filter-active');
       $(this).addClass('filter-active');
 
       courseIsotope.isotope({
@@ -168,24 +168,6 @@
     $(document).ready(function() {
       $('.venobox').venobox();
     });
-  });
-
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".team-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    responsive: {
-      0: {
-        items: 1
-      },
-      767: {
-        items: 2
-      },
-      991: {
-        items: 3
-      }
-    }
   });
 
 /*var owl = $(".product-slider");
@@ -219,7 +201,7 @@ $('.product-lists li.product').on('mouseleave',function(e){
     loop: true,
     items: 1
   });
-  
+
     // Counter
   $(document).ready(function(){
     $('.counter-value').each(function(){
