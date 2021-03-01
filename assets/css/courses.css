@@ -1,0 +1,28 @@
+/*--------------------------------------------------------------
+# Our services Section
+--------------------------------------------------------------*/
+  .service h3 {
+    font-size: 18px;
+    color: #000;
+    -webkit-transition: .3s color ease;
+    -o-transition: .3s color ease;
+    transition: .3s color ease; }
+  .service .wrap-icon {
+    display: block;
+    font-size: 40px;
+    margin-bottom: 10px; }
+  .service {
+    display: block;
+    padding: 20px 10px;
+    border-radius: 4px;
+    text-align: center;
+    background: #fff;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  }
+
+    @media (max-width: 991px) {
+      .service {
+        margin-bottom: 15px;
+      }
+    }
